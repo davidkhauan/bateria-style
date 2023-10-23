@@ -9,8 +9,8 @@ Projeto que faz parte do desafio _*Javascript - 7 projetos em 7 Dias*_.
 - Javascript (básico)
 
 ```bash
-git clone https://github.com/seurepositorio/seuprojeto.git
-cd seuprojeto
+git clone https://github.com/davidkhauan/bateria-style.git
+cd bateria-style
 npm install
 ``` 
 
