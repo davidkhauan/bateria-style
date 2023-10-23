@@ -1,0 +1,87 @@
+h1 {
+    color: #FFF;
+    margin-bottom: 20px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.9);
+}
+
+a {
+    text-decoration: underline;
+    color: #FFF;
+}
+a:hover {
+    color: aquamarine;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFF;
+    color: #FFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 25%;
+
+    cursor: pointer;
+}
+.key:hover {
+    color: #FF9;
+    border: 2px solid #FF9;
+}
+.key:active {
+    color: #FF2;
+}
+
+.key.active {
+    border: 2px solid #FF0;
+    color: #FF0;
+}
+
+.composer {
+    width: 290px;
+    margin-top: 20px;
+}
+.composer #input {
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    background-color: #FFFAF0;
+}
+.composer button {
+    width: 100%;
+    height: 40px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.composer button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #DCDCDC;
+}
+
+footer {
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+}
